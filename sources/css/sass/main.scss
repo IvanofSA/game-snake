@@ -1,0 +1,57 @@
+.wrap {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#poligon {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.btn {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.score {
+  position: absolute;
+  top: -20px;
+  color: #000;
+}
+.cell {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.snake {
+  background: #000;
+}
+
+.food {
+  background: green;
+}
+
+.snake-error-head {
+  background: red;
+}
