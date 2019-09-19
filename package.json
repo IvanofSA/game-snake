@@ -1,7 +1,7 @@
 {
-  "name": "g",
-  "version": "1",
-  "description": "",
+  "name": "sandbox-es6",
+  "version": "1.3.0",
+  "description": "Boilerplate for es6-projects",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+ssh://git@bitbucket.org/iNfame/sandbox-es6.git"
   },
-  "author": "",
-  "license": "",
-  "homepage": "",
+  "author": "iNfame",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/iNfame/sandbox-es6#readme",
   "dependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.13.2",
